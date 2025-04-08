@@ -15,7 +15,7 @@ app.use(cors());
 app.use(morgan('dev'))
 app.use(express.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/mahreenEcom')
+mongoose.connect('mongodb+srv://mahreenahubliwale:2P9cN27S5E7AXkFC@cluster0.79ki6ky.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
     console.log("db is connected")
 }).catch((error)=>{
